@@ -31,6 +31,9 @@ public class Users {
     @Column(name = "user_password")
     private String userPassword;
 
+    @Column(name = "user_email")
+    private String userEmail;
+
     @CreatedDate
     @Column(name = "created_at")
     private LocalDateTime createdAt;
